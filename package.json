@@ -1,0 +1,31 @@
+{
+  "name": "chained-web-services-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "set DEBUG=express:* & nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbehsan0/chained-web-services-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tbehsan0/chained-web-services-practice/issues"
+  },
+  "homepage": "https://github.com/tbehsan0/chained-web-services-practice#readme",
+  "dependencies": {
+    "debug": "^2.6.9",
+    "express": "^4.18.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "jest": "^25.5.4",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.2.4"
+  }
+}
