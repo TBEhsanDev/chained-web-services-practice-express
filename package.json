@@ -1,31 +1,28 @@
 {
-  "name": "chained-web-services-practice",
+  "name": "chained-web-services-practice-express",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "jest",
-    "start": "set DEBUG=express:* & nodemon server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tbehsan0/chained-web-services-practice.git"
+    "url": "git+https://github.com/tbehsan0/chained-web-services-practice-express.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tbehsan0/chained-web-services-practice/issues"
+    "url": "https://github.com/tbehsan0/chained-web-services-practice-express/issues"
   },
-  "homepage": "https://github.com/tbehsan0/chained-web-services-practice#readme",
+  "homepage": "https://github.com/tbehsan0/chained-web-services-practice-express#readme",
   "dependencies": {
-    "debug": "^2.6.9",
     "express": "^4.18.1",
     "request": "^2.88.2"
   },
   "devDependencies": {
-    "jest": "^25.5.4",
-    "nodemon": "^2.0.20",
+    "jest": "^25.2.2",
     "supertest": "^6.2.4"
   }
 }
